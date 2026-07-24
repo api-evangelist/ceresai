@@ -1,0 +1,23 @@
+generated: '2026-07-18'
+method: searched
+source: live probes of https://ceres.ai and https://login.ceres.ai
+host: https://ceres.ai
+note: >-
+  No /.well-known/ discovery documents are published. The developer portal at
+  https://dev.ceres.ai is authentication-gated (302 -> login.ceres.ai), so no
+  public OIDC/OAuth metadata was reachable. Absence recorded as valid data.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+- path: https://login.ceres.ai/.well-known/openid-configuration
+  status: 404
+- path: https://login.ceres.ai/.well-known/oauth-authorization-server
+  status: 404

@@ -1,8 +1,29 @@
 aid: ceresai
 name: CeresAI
-description: CeresAI is a company surfaced as a portfolio company of insight-partners and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  CeresAI (formerly Ceres Imaging) is an aerial and satellite agricultural
+  intelligence platform that converts high-resolution spectral imagery and
+  machine learning into field-level insights on crop health, water stress,
+  yield, and financial risk. The company serves growers, agribusinesses,
+  lenders, and crop-insurance providers across more than 40 crop types on four
+  continents, drawing on billions of plant-level data points to support
+  yield protection, sustainability scorecards, portfolio risk analysis, and
+  insurance claims. CeresAI operates a customer application and a login-gated
+  developer documentation portal at dev.ceres.ai; pricing is consultation-based
+  rather than self-serve. Backed by Insight Partners.
 url: https://raw.githubusercontent.com/api-evangelist/ceresai/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://avatars.githubusercontent.com/u/8461947?v=4
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +32,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Agriculture
+- AgTech
+- Geospatial
+- Remote Sensing
+- Satellite Imagery
+- Machine Learning
+- Crop Health
+- Agricultural Intelligence
+- Insurance
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +51,36 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/ceresai-domain-security.yml
 - type: Website
   url: https://ceres.ai/
+- type: DeveloperPortal
+  url: https://dev.ceres.ai/
+- type: Documentation
+  url: https://dev.ceres.ai/
+- type: GitHubOrganization
+  url: https://github.com/ceresimaging
+- type: Blog
+  url: https://ceres.ai/blog
+- type: BlogRSS
+  url: https://ceres.ai/blog/rss.xml
+- type: Pricing
+  url: https://ceres.ai/pricing
+- type: SignUp
+  url: https://login.ceres.ai/
+- type: Login
+  url: https://login.ceres.ai/
+- type: Support
+  url: https://ceres.ai/contactus
+- type: TermsOfService
+  url: https://ceres.ai/terms-of-service
+- type: PrivacyPolicy
+  url: https://ceres.ai/privacy-policy
+- type: LLMsTxt
+  url: llms/ceresai-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
